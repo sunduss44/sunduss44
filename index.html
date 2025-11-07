@@ -1,9 +1,20 @@
+
 <!DOCTYPE html>
 <html lang="ca">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Plantilla Web Pompeu</title>
+  <title>Web de Sondous </title>
+  <!--Link és un codi html que permet unir i linkar arxius CSS. Els arxius CSS són conjunt de codis
+  que ens permeten donar estil a la pàgina. CSS (cascade style sheet) significa full d'estil en cascada i permet donar 
+  marges de text, triar el tipus de lletra, triar el color de la lletra, el tamany de la lletra, el interlineat. En cascada vol dir
+  que afecta a diverses pàgines, un darrere de l'altre. Les dues linies seguents són CDN: Content Delivery Network,
+  es a dir una adreça d'internet on està una biblioteca amb moltes instruccions que ens ajuden a fer estils desplegables
+  amb estil (la linea dels 2). La segona linea inclou la biblioteca d'estils font-awesome, perque inclou font o tipus de lletra
+  amb simbols i dibuixos amb icones. Si no poso o m'oblido les dues linies seguents no funcionarà algunes linies que estàn
+  més endavant. Per exemple linea 26 i 27 funcionarà perquè dropdown-item pertany a bootstrap. Font awesome, si no afegim font-awesome
+  la linea 93,95,96 no dibuixarien icones el el menú exemple: fa-solid fa-code-->
+  
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
   <style>
@@ -81,11 +92,12 @@
           <!-- Projecte 1 -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="proj1Dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="fa-solid fa-diagram-project me-1"></i> Projecte 1
-            </a>
+              <i class="fa-solid fa-diagram-project me-1"></i> Braç Robótic </a>
             <ul class="dropdown-menu" aria-labelledby="proj1Dropdown">
-              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-code me-1"></i> Projecte 1.1</a></li>
-              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-database me-1"></i> Projecte 1.2</a></li>
+              <li><a class="dropdown-item" href="https://sunduss44.github.io/cdirecta"><i class="fa-solid fa-code me-1"></i> Cinemàtica directa</a></li>
+              <li><a class="dropdown-item" href="https://sunduss44.github.io/cinversa"><i class="fa-solid fa-database me-1"></i> Cinemàtica inversa</a></li>
+              <li><a class="dropdown-item" href="https://sunduss44.github.io/cinematica"><i class="fa-solid fa-database me-1"></i> Cinemàtica robòtica</a></li>
+              <li><a class="dropdown-item" href="https://sunduss44.github.io/dinamica"><i class="fa-solid fa-database me-1"></i> Dinàmica robòtica</a></li>
             </ul>
           </li>
           <!-- Projecte 2 -->
@@ -108,7 +120,10 @@
   <!-- Contingut -->
   <main class="container py-5">
     <h1 class="display-5 fw-bold mb-4">Benvinguts als Projectes</h1>
-    <p class="lead">Aquesta és una plantilla web amb menú desplegable, icones Font Awesome, mode clar i fosc, i disseny responsiu per mòbil i ordinador utilitzant Bootstrap 5.3.8. Aquest és el punt de partida per editar tot i fer projectes amb el professor Francesc Pérez.</p>
+    <p class="lead">Em dic Sondous Refae , sóc <i>alumne</i> de <b>robótica</b> de 1r 
+      de Batxillerat de <a href="https://agora.xtec.cat/ies-pompeu-fabra-martorell/">l'Institut Pompeu Fabra</a>
+      amb menú desplegable, icones Font Awesome, mode clar i fosc, i disseny responsiu per mòbil i ordinador utilitzant Bootstrap 5.3.8. Aquest és el punt de partida per editar tot i fer projectes amb el professor Francesc Pérez.
+    <p>Aquest pàgina web està escrita en html (lenguatge de marques de hipertext) que dona l'estructura (paràgrafs, títol, llistes, imatges, links, audio, videos) emprant <etiqueta></etiqueta></p>
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
